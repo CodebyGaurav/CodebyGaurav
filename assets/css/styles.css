@@ -469,7 +469,7 @@ img{
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    /* grid-template-rows: repeat(2,1fr); */
     column-gap: 2rem;
   }
   .education__container{
@@ -484,6 +484,11 @@ img{
     justify-items: center;
   }
   .project__container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 2rem;
+  }
+  .project__experience{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
